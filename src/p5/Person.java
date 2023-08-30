@@ -1,2 +1,16 @@
-package p5;public class Person {
+package p5;
+
+abstract class Person {
+
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public Person(String name) {
+        this.name = name;
+    }
+
+    public abstract void info();
 }
